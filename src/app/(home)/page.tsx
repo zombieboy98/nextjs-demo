@@ -36,7 +36,7 @@ export default function DashboardPage() {
         <div className='border-b'>
           <div className='flex h-16 items-center px-4'>
             <Image
-              src='/logo.png'
+              src='https://macquariecloudservices.com/wp-content/themes/macquarie/img/apple-touch-icon-152x152.png'
               alt={'Logo'}
               width={100}
               height={100}
