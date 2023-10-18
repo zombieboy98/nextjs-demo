@@ -14,7 +14,6 @@ import {
   TabsList,
   TabsTrigger,
 } from '@/app/components/ui/tabs';
-import Image from 'next/image';
 import { CalendarDateRangePicker } from '../components/date-range-picker';
 import { MainNav } from '../components/main-nav';
 import { ModeToggle } from '../components/mode-toggle';
@@ -35,13 +34,7 @@ export default function DashboardPage() {
       <div className='flex-col md:flex'>
         <div className='border-b'>
           <div className='flex h-16 items-center px-4'>
-            <Image
-              src='https://macquariecloudservices.com/wp-content/themes/macquarie/img/apple-touch-icon-152x152.png'
-              alt={'Logo'}
-              width={100}
-              height={100}
-              className='h-8 w-8 mr-4'
-            />
+            <img src='/logo.png' alt={'Logo'} className='h-8 w-8 mr-4' />
             <TeamSwitcher />
 
             <MainNav className='mx-6 hidden md:block' />
