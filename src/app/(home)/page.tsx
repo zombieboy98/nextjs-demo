@@ -1,5 +1,3 @@
-import { Metadata } from 'next';
-
 import { Button } from '@/app/components/ui/button';
 import {
   Card,
@@ -23,10 +21,10 @@ import { Search } from '../components/search';
 import TeamSwitcher from '../components/team-switcher';
 import { UserNav } from '../components/user-nav';
 
-export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'Example dashboard app built using the components.',
-};
+// export const metadata: Metadata = {
+//   title: 'Dashboard',
+//   description: 'Example dashboard app built using the components.',
+// };
 
 export default function DashboardPage() {
   return (
